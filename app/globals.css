@@ -1,27 +1,79 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&display=swap'); */
+
+
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lobster'), url('http://themes.googleusercontent.com/static/fonts/lobster/v4/NIaFDq6p6eLpSvtV2DTNDQLUuEpTyoUstqEm5AMlJo4.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Abril Fatface'), url('https://db.onlinewebfonts.com/t/4abc7b446177a4b533468cd3635fe0b6.woff2') format('woff');
+}
+
+p {
+  font-family: sans-serif;
+}
+
+label {
+  font-family: 'Abril Fatface';
+  color: #f4efe4;
+}
+
+span {
+  color: #f4efe4;
+}
+
+input {
+  background-color: #f4efe4;
+}
+
+.title-box {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: underline;
+}
+
+#title1 {
+  font-family: 'Lobster';
+  font-size: 50px;
+  font-weight: normal;
+  color: #68AEB8;
+}
+
+#title2 {
+  font-family: 'Lobster';
+  font-size: 50px;
+  font-weight: normal;
+  margin: 10px;
+}
+
+#title3 {
+  font-family: 'Abril Fatface';
+  font-size: 50px;
+  font-weight: normal;
+  color: #E6A5B7;
+  /* color: #AF2413; */
+  font-style: italic;
+}
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  background:  #f4efe4;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+/* vintage sky blue #68AEB8 or greenish blue #59a8a3 | Sky blue #66CCFF or Sky blue 2 #1CC4E7  
+vintage red #AF2413 or  #9e3641
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+vintage pink #E6A5B7
+
+vintage white #f4efe4
+
+vintage silver #bbc5d0; */
