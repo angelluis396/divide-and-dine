@@ -1,21 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&display=swap'); */
-
 
 @font-face {
-  font-family: 'Lobster';
+  font-family:'Lobster';
   font-style: normal;
   font-weight: normal;
-  src: local('Lobster'), url('http://themes.googleusercontent.com/static/fonts/lobster/v4/NIaFDq6p6eLpSvtV2DTNDQLUuEpTyoUstqEm5AMlJo4.woff') format('woff');
+  src: local('Lobster'), url('./fonts/Lobster.woff2') format('woff');
 }
 
 @font-face {
   font-family: 'Abril Fatface';
   font-style: normal;
   font-weight: normal;
-  src: local('Abril Fatface'), url('https://db.onlinewebfonts.com/t/4abc7b446177a4b533468cd3635fe0b6.woff2') format('woff');
+  src: local('Abril Fatface'), url('./fonts/Abrilfatface.woff2') format('woff');
 }
 
 p {
@@ -61,7 +59,6 @@ input {
   font-size: 50px;
   font-weight: normal;
   color: #E6A5B7;
-  /* color: #AF2413; */
   font-style: italic;
 }
 

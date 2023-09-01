@@ -8,6 +8,7 @@ const Home = () => {
         <h1 id='title1' className="text-center"> Divide </h1>
         <h2 id='title2' className="text-center"> & </h2>
         <h1 id='title3' className="text-center"> Dine </h1>
+        <br/>
       </div>
       <PanelLayout>
         <TipForm />
