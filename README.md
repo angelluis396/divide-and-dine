@@ -8,6 +8,9 @@ Divide and Dine is a simple, no-frills app designed to take the stress out of sp
 ## Try It Out
 Check out the live version of Divide and Dine <a href="https://tiny-florentine-0677b3.netlify.app/" target="_blank">here</a>.
 
+## Case Study
+Learn more about the development process and insights behind Divide and Dine in the <a href="https://docs.google.com/document/d/1MLVxfwEqZ1opPeEcgMiea0KNxXbVOJd_Fv1Ee67j6tY/edit?usp=sharing" target="_blank">case study here</a>.
+
 ## Features
 - **Effortless Bill Splitting**: Input the bill amount, tip percentage, and number of diners to instantly get per-person totals.
 - **Minimalist Design**: Single-screen layout with a focus on usability and fewer clicks.
