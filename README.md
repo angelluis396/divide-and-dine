@@ -1,34 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Divide and Dine
 
-## Getting Started
+## Overview
+Divide and Dine is a simple, no-frills app designed to take the stress out of splitting restaurant bills. Whether you're dining with friends or coworkers, this tool quickly calculates each person's share based on the bill amount, tip percentage, and number of guests—all wrapped in a clean, old-school diner-themed UI.
 
-First, run the development server:
+![Divide and Dine Screenshot](images/divideAndDineSS.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Features
+- **Effortless Bill Splitting**: Input the bill amount, tip percentage, and number of diners to instantly get per-person totals.
+- **Minimalist Design**: Single-screen layout with a focus on usability and fewer clicks.
+- **Retro Diner Vibe**: A fun, nostalgic theme that users love.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Why Divide and Dine?
+Tipping and splitting bills can be a hassle—mental math is tricky, and most apps are bloated with unnecessary features. Divide and Dine keeps it simple, targeting casual diners who want a fast, reliable solution without the clutter. Friends and family have praised its speed and ease, shaving minutes off the usual bill-splitting debates!
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Installation
+1. Clone the repository: `git clone https://github.com/angelluis396/divide-and-dine.git`
+2. Open the project in your preferred IDE.
+3. Follow the setup instructions for your platform (e.g., Android, iOS, or web deployment).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Usage
+1. Enter the total bill amount.
+2. Select or input a tip percentage.
+3. Specify the number of guests.
+4. Get instant per-person totals—no fuss, no extra steps.
 
-## Learn More
+## Future Improvements
+- Add a pop-up number pad for mobile users (instead of a full keyboard).
+- Explore additional themes or customization options.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contributing
+Feedback and contributions are welcome! Feel free to submit a pull request or open an issue if you have ideas to enhance Divide and Dine.
